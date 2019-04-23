@@ -11,7 +11,6 @@ public class ArrayStack {
 
 
     public boolean push(String item){
-
         if(index>MAX_SIZE){
             return false;
         }
@@ -36,10 +35,8 @@ public class ArrayStack {
         System.out.println(stack.pop());
         System.out.println(stack.pop());
         System.out.println(stack.pop());
+        stack.push("888");
         System.out.println(stack.pop());
-        stack.push("qwe");
-        System.out.println(stack.pop());
-
 
     }
 
